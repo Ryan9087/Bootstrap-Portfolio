@@ -4,65 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway" rel="stylesheet">
     <title>Ryan McGeeney's Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <div class="name-box">
+    <div class="container con-padding">
+        <div class="row">
+            <div class="col-xs-3 name-box">
                Ryan McGeeney
             </div>
 
-            <div class="nav-box">
-               <a href="index.html">About</a>    
-               <a href="portfolio.html">Portfolio</a>
-               <a href="contact.html">Contact</a>      
-            </div>
-        </div>
-    </header>
-
-    <div class="content-area">
-        <div class="entire-content">
-            <div class="main-sectionc">
-                <h2>Contact</h2>
-                <hr class="line-class">
-                <div class="container">
-                        <form action="/action_page.php">
-                          <label for="fname">Name</label>
-                          <input type="text" id="fname" name="name" placeholder="John Smith">
-                      
-                          <label for="lname">Email</label>
-                          <input type="text" id="lname" name="email" placeholder="example@gmail.com">
-                      
-                          <label for="subject">Message</label>
-                          <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
-                      
-                          <input type="submit" value="Submit">
-                        </form>
-                      </div>
-
-            </div>
-
-            <div class="sidebar">
-            <h3>Connect with me</h3>
-            <a href="http://www.github.com/ryan9087"><img class="sidebar-img" src="assets/images/git.png" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/ryan-mcgeeney-9593565a/"><img class="sidebar-img" src="assets/images/link.png" alt="Linkedin"></a>
-            <a href="https://stackoverflow.com/users/9383142/ryan9087?tab=profile"><img class="specialpic" src="assets/images/over.png" alt="Stack Overflow"></a>
-            
-
+            <div class="cold-md-4 nav-box">
+                    <ul class="nav nav-tabs">
+                            <li role="presentation"><a href="index.html">About</a></li>
+                            <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                            <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+                          </ul>      
             </div>
         </div>
     </div>
 
-    <div class="content1">
-    <div id="colorstrip"></div>
-    <footer class="footer">
-         Copyright &copy; 2018 Ryan McGeeney
+    <div class="content-areai">
+        
+        <div class="container con-padding">
+            <div class="row">
+                <div class="col-xs-8 containerbgL">
+                    <h2>Contact</h2>
+                    <hr class="line-class">
+                
+                    <div class="container10">
+                            <form action="/action_page.php">
+                              <label for="fname">Name</label>
+                              <input type="text" id="fname" name="name" placeholder="John Smith">
+                          
+                              <label for="lname">Email</label>
+                              <input type="text" id="lname" name="email" placeholder="example@gmail.com">
+                          
+                              <label for="subject">Message</label>
+                              <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Submit">
+                            </form>
+                          </div>
+
+                    
+            </div>
+
+
+                    
+       
+       
+                <div class="col-xs-3 containerbgR">
+                     <h3>Connect with me</h3>
+                    <a href="http://www.github.com/ryan9087"><img class="sidebar-img" src="assets/images/git.png" alt="Github"></a>
+                    <a href="https://www.linkedin.com/in/ryan-mcgeeney-9593565a/"><img class="sidebar-img" src="assets/images/link.png" alt="Linkedin"></a>
+                    <a href="https://stackoverflow.com/users/9383142/ryan9087?tab=profile"><img class="specialpic" src="assets/images/over.png" alt="Stack Overflow"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div id="colorstrip"></div>
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                Copyright &copy; 2018 Ryan McGeeney
+            </div>    
+        </div>
     </footer>
-
-    </div>
 </body>
 </html>
